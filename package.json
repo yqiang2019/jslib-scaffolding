@@ -2,6 +2,7 @@
     "name": "jslib-scaffolding",
     "version": "1.0.0",
     "description": "",
+    "type": "module",
     "scripts": {
         "build": "rollup -c",
         "test": "jest",
