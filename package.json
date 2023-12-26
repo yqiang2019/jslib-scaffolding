@@ -1,5 +1,5 @@
 {
-    "name": "jslib-scaffolding",
+    "name": "@fe-scaffolding/jslib-scaffolding",
     "version": "1.0.0",
     "description": "",
     "type": "module",
@@ -13,9 +13,6 @@
     "main": "dist/index.js",
     "module": "dist/index.esm.js",
     "typings": "dist/types/index.d.ts",
-    "files": [
-        "dist/"
-    ],
     "lint-staged": {
         "**/*.{js,ts}": [
             "npm run lint"
@@ -25,7 +22,11 @@
         "type": "git",
         "url": "git+https://github.com/yqiang2019/jslib-scaffolding.git"
     },
-    "keywords": [],
+    "keywords": [
+        "typescript",
+        "javascript",
+        "lib"
+    ],
     "author": "",
     "license": "ISC",
     "bugs": {
@@ -51,5 +52,9 @@
         "rollup": "^4.9.1",
         "rollup-plugin-delete": "^2.0.0",
         "ts-jest": "^29.1.1"
+    },
+    "publishConfig": {
+        "registry": "https://registry.npmjs.org/",
+        "access": "public"
     }
 }
