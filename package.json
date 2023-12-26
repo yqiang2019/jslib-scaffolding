@@ -13,6 +13,10 @@
     "main": "dist/index.js",
     "module": "dist/index.esm.js",
     "typings": "dist/types/index.d.ts",
+    "files": [
+        "dist",
+        "package.json"
+    ],
     "lint-staged": {
         "**/*.{js,ts}": [
             "npm run lint"
